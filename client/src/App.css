@@ -1,0 +1,70 @@
+.register-form-container{
+  background-color: #fff;
+  border: 2px solid #ebebeb;
+  border-radius: 5px;
+  
+}
+
+.flex {
+  display: flex;
+}
+
+.home-link {
+  margin:50px;
+  background-color:#fff;
+  color:#6200ff;
+  font-size:32px;
+  border:3px solid #6200ff;
+  border-radius:50px;
+  width:200px;
+}
+
+.home-link:hover{
+  background-color: #6200ff;
+  color: #fff;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.home-title {
+  height: 48vh;
+  width: 100%;
+  background-color:#6200ff;
+  direction: rtl;
+  color:#fff
+}
+
+.home-title h1 {
+  font-size: 72px;
+}
+
+.home-link-div{
+  background-color: #fff;
+  height: 52vh;
+}
+
+.div-title{
+  width: 100%;
+  background-color:#6200ff;
+  direction: rtl;
+  color:#fff
+}
+
+.div-title h1{
+  font-size: 65px;
+}
+
+@media only screen and (max-width: 930px) {
+
+  .home-title {
+    height: 55vh;
+  }
+
+  .home-link {
+    font-size:25px;
+  }
+
+  .home-link-div{
+    height: 45vh;
+  }
+  
+}
