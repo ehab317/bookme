@@ -65,6 +65,10 @@ const MonthlyCalendar = () => {
             toast.error('עסק לא זוהה');
             return;
         }
+        if(!title) {
+            toast.error('חובה להגדיר שם לאירוע!');
+            return;
+        }
         const res = await dispatch(insertEvent({title, startStr, endStr, unitId, businessId, startDate, endDate, userId}));
         setValues({...values, html : false, weeklyHtml: false});
     };

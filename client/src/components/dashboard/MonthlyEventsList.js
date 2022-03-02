@@ -71,7 +71,7 @@ const MonthlyEventsList = () => {
         })
 
             return(
-                <tr scope="row">
+                <tr scope="row" key={event._id}>
                     <td scope="col">{ event.title }</td>
                     <td scope="col">{ date }</td>
                     <td scope="col">{ startTime == '' ? 'כל היום' : startTime }</td>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { toast } from 'react-toastify';
 import { useDispatch, useSelector } from 'react-redux';
 import { signup } from '../../actions/user';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 const Register = () => {
     const [values, setValues] = useState({
@@ -66,6 +66,8 @@ const Register = () => {
                         {registerForm()}
                     </div>
                 </div>
+                <Link to="/login" className='auth-link'>התחבר</Link>
+                <Link to="/" className='auth-link'>דף הבית</Link>
             </div>
         </>
     );

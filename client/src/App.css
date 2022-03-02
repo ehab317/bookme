@@ -19,6 +19,12 @@
   width:200px;
 }
 
+.auth-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
 .home-link:hover{
   background-color: #6200ff;
   color: #fff;

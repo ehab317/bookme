@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { signin } from '../../actions/user';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 const Login = () => {
 
@@ -55,6 +55,8 @@ const Login = () => {
                         {loginForm()}
                     </div>
                 </div>
+                    <Link to="/register" className='auth-link'>הרשם</Link>
+                    <Link to="/" className='auth-link'>דף הבית</Link>
             </div>
         </>
     )

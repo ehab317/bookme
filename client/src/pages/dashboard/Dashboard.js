@@ -66,7 +66,7 @@ const Dashboard = () => {
                     </div>
                     <div className='row' style={{direction: 'rtl'}}>
                         <h3>אירועים קרובים:</h3>
-                        <table class="table table-striped">
+                        <table className="table table-striped">
                             <thead>
                                 <tr scope="row">
                                     <th scope="col">שם אירוע</th >

@@ -14,7 +14,6 @@ export const insertEvent = event => async dispatch => {
         });
         toast.success('אירוע הוקם בהצלחה!')
     } catch (error) {
-        console.log(error.response);
         toast.error('תקלה ביצירת אירוע חדש. נא לנסות שוב');
     }
 };
